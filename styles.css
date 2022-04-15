@@ -1,0 +1,91 @@
+*, html, body{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* width:150vw; */
+	/* height:100vh; */
+	cursor:none;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+p{
+	font-family: adobe-jenson-pro-display, serif;
+	/* font-family:serif; */
+	font-weight: 300;
+	font-style: italic;
+	font-size:40px;
+	color:black;
+}
+
+#status-wrapper{
+	position:absolute;
+	/* top:700px;
+	left:1250px; */
+	width:150vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	z-index:100;
+}
+
+#status{
+	color: white;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+#fixed{
+	width:100vw;
+	height:100vh;
+	position:fixed;
+	z-index:100;
+}
+
+#user_count{
+	position:absolute;
+	right:0;
+	bottom:0;
+	font-size:18px;
+	opacity:0;
+	padding:1vw;
+}
+
+#nav{
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+}
+
+p{
+	font-family: lores-12, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:18px;
+	/* margin:10px; */
+}
+
+#about-page{
+	background-color:(128, 128, 128);
+	display:none;
+	position:absolute;
+	z-index:100;
+}
+
+#about-page-wrapper{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#about-page img{
+	width:500px;
+	height:350px;
+}
